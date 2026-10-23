@@ -6,7 +6,7 @@ public class Main_class {
 		
 		Method_question m1 = new Method_question();
 		
-//		m1.fibnocassi();
+		m1.fibonacci(10);
 		
 //		int result = m1.reverse(12345);
 //		System.out.println(result);
