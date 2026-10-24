@@ -9,26 +9,26 @@ public static void main(String[] args) {
 //	/// 1.
 	System.out.println(" 1: Hello Java  ");
 	
-	String result = d.myAddition();
+	String result = d.displayMessage();
     System.out.println(result);
     
     
     System.out.println("\n 2: Even or Odd ---");
     /// 2.
-    d.myAddition(12);
+    d.displayMessage(12);
  
     
     /// 3. 
     System.out.println("\n 3: Compare Two Numbers ---");
 
-    String result1 = d.myAddition(12, 10);
+    String result1 = d.displayMessage(12, 10);
     System.out.println(result1);
      
     
     /// 4 
     System.out.println("\n 4: Addition of Three Numbers ---");
 
-    int sum1 = d.myAddition(10, 20, 11);
+    int sum1 = d.displayMessage(10, 20, 11);
     System.out.println("Addition: " + sum1);
 
   
@@ -36,7 +36,7 @@ public static void main(String[] args) {
     System.out.println("\n 5: Pass or Fail ---");
 
     
-    String sum2 = d.myAddition(54, true);
+    String sum2 = d.displayMessage(54, true);
     System.out.println("Marks: " + sum2);
     
     
@@ -44,20 +44,20 @@ public static void main(String[] args) {
 /// 6. name and age
     System.out.println("\n 6: name and age ---");
 
-	System.out.println(d.myAddition("krushna", 21));
+	System.out.println(d.displayMessage("krushna", 21));
     
 	
 ///// 7. factriol number
     System.out.println("\n 7: factriol number ---");
 
-	System.out.println(d.myAddition(5, true));
+	System.out.println(d.displayMessage(5, true));
     
 	
 //// 8. leap year
 
     System.out.println("\n 8: leap year ---");
 
-	 System.out.println(d.myAddition(2024, 1, 'L'));
+	 System.out.println(d.displayMessage(2024, 1, 'L'));
     
 	
 	
@@ -65,7 +65,7 @@ public static void main(String[] args) {
 
 	 System.out.println("\n 9: divison  ---");
 
-	System.out.println(d.myAddition(10, 2.0));
+	System.out.println(d.displayMessage(10, 2.0));
 	
 	
     
@@ -73,25 +73,25 @@ public static void main(String[] args) {
 
 	System.out.println("\n 10: cheak or age  ---");
 	
-	System.out.println(d.myAddition(12, 100L));
+	System.out.println(d.displayMessage(12, 100L));
 	
 
 /// 11. grade
 
 	System.out.println("\n 11: student grade  ---");
-	System.out.println("Grade: " + d.myAddition(85, 'G'));	
+	System.out.println("Grade: " + d.displayMessage(85, 'G'));	
 	
 /// 12. divisible by 5
 
 	System.out.println("\n 12: divisible by 5  ---");
-	  System.out.println("Divisible by 5: " + d.myAddition(25L, 5));
+	  System.out.println("Divisible by 5: " + d.displayMessage(25L, 5));
 
 	
 /// 13. print even number
 
 	  System.out.println("\n 13: print even number  ---");
 
-	 d.myAddition((short) 1, (short) 10);
+	 d.displayMessage((short) 1, (short) 10);
 
 	
 	
@@ -99,19 +99,19 @@ public static void main(String[] args) {
 
 	  System.out.println("\n 14: Student details  ---");
 
-    d.myAddition("Krushna", 21, 'A');
+    d.displayMessage("Krushna", 21, 'A');
 	
 /// 15. Print two strings
 
 	  System.out.println("\n 15: Print two strings  ---");
 
-  d.myAddition("Hello", "Java", 'S');
+  d.displayMessage("Hello", "Java", 'S');
 	
 //// 16  addd four number
 
     System.out.println("\n  16: addd four number  ---");
   
-	System.out.println(d.myAddition(1, 2, 3, 4, 'A')); 
+	System.out.println(d.displayMessage(1, 2, 3, 4, 'A')); 
 
 
 	
@@ -119,7 +119,7 @@ public static void main(String[] args) {
 
     System.out.println("\n 17: cube  ---");
 	
-	System.out.println(d.myAddition(3 , 'C', true));
+	System.out.println(d.displayMessage(3 , 'C', true));
 
 	
 /// 18. even or odd
@@ -134,33 +134,33 @@ public static void main(String[] args) {
     System.out.println("\n 19: addition  ---");
 
 	
-	System.out.println(d.myAddition(10.5, 20.5));
+	System.out.println(d.displayMessage(10.5, 20.5));
 
 /// 20 table
 	
     System.out.println("\n 20: table ---");
 
-	d.myAddition(2, 'T', true, 10);
+	d.displayMessage(2, 'T', true, 10);
 
 	
 	/// 21.
 	
     System.out.println("\n 21: upper case and lower case  ---");
 
-	System.out.println(d.myAddition('r'));
+	System.out.println(d.displayMessage('r'));
 	
 /// 22 .Positive, Negative or Zero
 
     System.out.println("\n 22: Positive, Negative or Zero ---");
 
-	System.out.println(d.myAddition(12,'S'));
+	System.out.println(d.displayMessage(12,'S'));
 	
 	
 /// 23.divisble by 10
 	
     System.out.println("\n 23: divisble by 10  ---");
 
- System.out.println(d.myAddition(150L, 'D'));
+ System.out.println(d.displayMessage(150L, 'D'));
 	
 	
 	
@@ -168,7 +168,7 @@ public static void main(String[] args) {
 
  System.out.println("\n 24: sum of 1 to 10  ---");
 
- System.out.println("Sum 1 to 10: " + d.myAddition(10L, 1L));
+ System.out.println("Sum 1 to 10: " + d.displayMessage(10L, 1L));
  
  
 /// 25 sum of even numbers
@@ -176,7 +176,7 @@ public static void main(String[] args) {
  System.out.println("\n 25: sum of even numbers  ---");
 
 
-	System.out.println(d.myAddition(11, true, 'E'));
+	System.out.println(d.displayMessage(11, true, 'E'));
 
 	
 /// 26 . count of even numbers
@@ -185,7 +185,7 @@ public static void main(String[] args) {
 
 
 	  System.out.println("Count of even numbers: "
-              + d.myAddition(18, (short) 0));
+              + d.displayMessage(18, (short) 0));
 
 }	
 
