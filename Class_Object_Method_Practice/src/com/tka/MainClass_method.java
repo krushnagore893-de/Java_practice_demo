@@ -4,7 +4,7 @@ public class MainClass_method {
 	
 public static void main(String[] args) {
 
-	Class_Object_Method_question d = new Class_Object_Method_question();
+	JavaMethodPractice d = new JavaMethodPractice();
 
 //	/// 1.
 	System.out.println(" 1: Hello Java  ");

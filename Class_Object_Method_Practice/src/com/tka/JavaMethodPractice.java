@@ -1,6 +1,6 @@
 package com.tka;
 
-public class Class_Object_Method_question {
+public class JavaMethodPractice {
 //
 //////// 1.print Hello Java
 	
